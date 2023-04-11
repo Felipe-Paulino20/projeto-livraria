@@ -1,0 +1,77 @@
+/* DOCUMENTO CSS */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family:"fantasy;";
+	background-color:lightseagreen;
+}
+header{
+	background-color: green;
+	height: 350px;
+	padding-top: 50px; 
+	color: white;
+	text-align: center;
+
+
+	
+}
+header h1 {
+	margin: 30;
+	padding: 0;
+	font-family:"fantasy;";
+
+}
+main {
+	min-height: 900px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	padding:20px;
+	flex-wrap: wrap;
+	background-color: lightseagreen;
+}
+.boxlivro{width: 600px;
+	height: 300px;
+	background-color: green;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	margin: 10px 10px 10px 50px;
+	display: flex;
+}
+.boxlivro:hover{
+	box-shadow: 6px 6px 10px #a4a4a4 ;
+}
+.boxlivro h2{margin: 35px 10px 10px 30px; 
+	padding: 0;
+}
+.box figure {width: 100px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+
+}
+.box figure img {
+	width: 100px;
+}
+.box p {
+height: 110px;
+}
+
+
+
+
+
+footer{
+	background-color: green;
+	height: 50px;
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+}
+
+
